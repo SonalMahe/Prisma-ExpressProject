@@ -29,11 +29,9 @@ npx prisma db seed
 ```bash
 node index.js
 ```
-
-*(or `npx ts-node index.ts` if using TypeScript)*
+*(npx ts-node index.ts` if using TypeScript)*
 
 Server will run on:
-
 ```
 http://localhost:3000
 ```
@@ -47,14 +45,11 @@ You can test the API using:
 * Browser (for GET requests)
 * Insomnia
 
-### Example:
-
 #### Get all users
 
 ```
 GET http://localhost:3000/users
 ```
-
 
 ## Available Routes
 
@@ -83,7 +78,6 @@ Fetch users from the database.
   }
 ]
 ```
-
 ---
 
 ##  New Routes Created
